@@ -1,0 +1,312 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../pb.jpg) repeat-x;
+}
+#wrapper{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin:0 auto;
+    padding: 0;
+
+}
+#header{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 3px;
+    background-color: #089050;
+}
+#logo{
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: transparent;
+}
+#title a{
+    float: left;
+    font-size: 30pt;
+    margin-left: 50px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    text-decoration:none;
+    font-family: 'Oswald', serif;
+}
+#title a:hover{
+    color: #FFFFFF;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+#leftSide{
+    height: 100%;
+    width: 20%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    float: left;
+    text-align: center;
+    background-color: #193742;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#leftSide a:link,#leftSide a:visited {
+    display:block;
+    height: 30px;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 15%;
+    text-decoration:none;
+}
+#leftSide ul h3{
+    margin-top: 10%;
+    color: #089050;
+    text-align: left;
+    padding-left: 15%;
+}
+.home{
+    padding: 2%;
+    margin-top: 10%;
+    height: 10%;
+    width: 100%;
+}
+.web{
+    padding: 2%;
+    height: 10%;
+    width: 100%;
+}
+.gallery{
+    padding: 2%;
+    height: 10%;
+    width: 100%;
+}
+.conta{
+    padding: 2%;
+    margin-bottom: 5%;
+    height: 10px;
+    width: 100%;
+}
+.home:hover,.web:hover,.gallery:hover,.conta:hover{
+    width: 100%;
+    background-color: #089050;
+    color: #FFFFFF;
+}
+.logos{
+    margin-top: 10%;
+}
+.billBoards{
+    margin-bottom: 10%;
+}
+.logos,.posters,.bronchures,.letterHeads,.billBoards{
+    background-color: #193742;
+    font-family: serif;
+    font-weight: lighter;
+}
+.logos:hover,.posters:hover,.bronchures:hover,.letterHeads:hover,.billBoards:hover{
+    background-color: #089050;
+}
+#content{
+    width: 78%;
+    height: auto;
+    float: left;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #e1d8b9;
+}
+h2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: #089050;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+#slidingImages1{
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#slidingImages1Exp{
+    width: 68%;
+    height: 250px;
+    float: left;
+    margin-top: 2%;
+}
+#products{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#products ol li{
+    padding-left: 3%;
+    font-size:13pt;
+}
+#products ol li ul li{
+    font-size: 12pt;
+    font-style: italic;
+}
+p{
+    margin-top: 2px;
+    padding-left: 3%;
+    font-size: 12pt;
+}
+#slidingImages2{
+    width: 55%;
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #193742;
+    margin-bottom: 0;
+}
+#contact{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+#contact a{
+    padding-left: 15%;
+    margin-top: 5%;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #089050;
+}
+#socialMediaContact a:hover{
+    color: #FFFFFF;
+}
+.fa-facebook-square,.fa-twitter-square,.fa-linkedin-square,.fa-google-plus-square{
+    padding-right: 5%;
+    color: #089050;
+}
+.fa-facebook-square:hover,.fa-twitter-square:hover,.fa-linkedin-square:hover,.fa-google-plus-square:hover{
+    color: #FFFFFF;
+}
+#formContent {
+    width: 78%;
+    height: auto;
+    float: left;
+    margin:0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #e1d8b9;
+}
+.field{
+    margin: 0 auto;
+    width: 93%;
+    margin-bottom: 5px;
+    border-style: hidden;
+    background-color: #e1d8b9;
+}
+#fname,#formEmail,#formTel,#textArea{
+    width: 260px;
+    margin-top: 10px;
+    border: 1px solid #193742;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+#fname,#formEmail,#formTel{
+    height: 20px;
+}
+#fname:hover,#formEmail:hover,#formTel:hover,#textArea:hover {
+    width: 260px;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow:1px 1px 4px 4px rgba(0,0,0,0.1);
+    border: 1px solid #089050;
+}
+table{
+    margin-left: 40px;
+}
+td{
+    font-size: 12pt;
+    padding-left: 10px;
+    width: 257px;
+}
+fieldset legend{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-bottom:10px;
+    font-weight: bold;
+    color: #089050;
+}
+.lbl{
+    color: #089050;
+    font-family: 'Basic',serif;
+    border-radius: 2px;
+}
+#formContent #frmContact .fa-envelope-square{
+    margin-left: 50px;
+}
+.sbtButton{
+    width: 10%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 13pt;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #089050;
+    border-style: hidden;;
+    color: white;
+}
+.sbtButton:hover{
+    box-shadow:1px 7px 7px 2px rgba(0,0,0,0.4);
+    background-color: white;
+    color: #089050;
+}
+.fa-cart-plus{
+    padding-left:50px;
+}
+fieldset p{
+    padding-top:15px;
+    padding-left:50px;
+}
+#serviceDisplay{
+    margin-left:300px;
+}
+#graphicContent{
+    width: 78%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: #e1d8b9;
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8{
+    width: 190px;
+    height: 300px;
+    margin-right
+    : 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5%;
+    background-color: #e1d8b9;
+    float: left;
+    box-shadow:1px 1px 4px 4px rgba(0,0,0,0.1);
+}

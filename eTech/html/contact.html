@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>e-Tech</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../jquery-ui-1.12.0-rc.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="icon" href="../logo/Logo2.png">
+</head>
+<body>
+<div id="wrapper">
+        <div id="header">
+        <div id="logo">
+            <a href="index.html"><img src="../logo/Logo2.png" width="70px" height="70px" title="Home"></a>
+        </div>
+        <div id="title">
+            <a href="index.html" title="We Achieve your Goals.">e-Tech</a>
+        </div>
+    </div>
+    <div id="leftSide">
+        <ul>
+            <h3>Main Menu</h3>
+            <a class="home" href="index.html">HOME</a>
+            <a class="web" href="web.html">WEB DESIGN</a>
+            <a class="gallery" href="graphics.html">GRAPHICS</a>
+            <a class="conta" href="contact.html">CONTACT US</a><hr>
+        </ul>
+    </div>
+    <!--Creating a form-->
+    <div id="formContent">
+        <form id="frmContact" name="frmContact" action="#" method="post">
+            <fieldset class="field">
+                <legend>Please Fill in your details, for easy communication.</legend>
+                <table class="contact">
+                    <tr>
+                        <td><label for="fname"><i class="fa fa-user">&nbsp; Name</i></label></td>
+                        <td><input type="text" id="fname" name="fname" placeholder="Felix Watilah"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="formEmail"><i class="fa fa-envelope">&nbsp; Email</i></label></td>
+                        <td><input type="email" id="formEmail" name="email" placeholder="fwatilah@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="formTel"><i class="fa fa-phone">&nbsp; Number</i></label></td>
+                        <td><input type="tel" id="formTel" name="telephone" placeholder="+254 790 388511"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="textArea"><i class="fa fa-envelope-o">&nbsp; Message</i> </label></td>
+                        <td><textarea id="textArea" rows="5" cols="30" placeholder="Write here your message"></textarea></td>
+                    </tr>
+                </table>
+                <i class="fa fa-cart-plus">&nbsp; If you want to make an order, check the box. <input type="checkbox" id="service" name="service"></i><br>
+                    <div id="serviceDisplay">
+                        <input class="check" type="checkbox" name="services" checked="checked">&nbsp; Graphics Design<br>
+                        <input class="check" type="checkbox" name="services">&nbsp; Web Design<br>
+                        <input class="check" type="checkbox" name="services">&nbsp; Android App</i><br>
+                        <input class="check" type="checkbox" name="services">&nbsp; Software<br>
+                    </div>
+                <i class="fa fa-envelope-square">&nbsp; Subscribe to our updates
+                    <input class="check" type="radio" name="subscribe" checked="checked">&nbsp;Yes &nbsp;
+                    <input class="check" type="radio" name="subscribe">&nbsp; No</i>
+                <p><span id="errorMessage"></span></p>
+            </fieldset>
+            <p><input class="sbtButton" type="submit" name="submit" value="SUBMIT"></p>
+        </form>
+    </div>
+    <!--Creating a footer-->
+    <footer>
+        <div id="socialMediaContact">
+            <a href="https://www.facebook.com/fwatilah"><i class="fa fa-facebook-square">&nbsp; Facebook</i></a>
+            <a href="https://twitter.com/watilahfelix"><i class="fa fa-twitter-square">&nbsp; Twitter</i></a>
+            <a href="https://ke.linkedin.com/in/felix-watilah-82152b118"><i class="fa fa-linkedin-square">&nbsp; LinkedIn</i></a>
+            <a href="#"><i class="fa fa-google-plus-square">&nbsp; Google Plus</i></a>
+        </div>
+        <p>&copy 2016. All Rights Reserved by e-Tech.</p>
+    </footer>
+
+</div>
+<script src="../jQuery/jquery-3.0.0.min.js"></script>
+<script src="../jquery-ui-1.12.0-rc.2/jquery-ui.min.js"></script>
+<script src="../js/contact.js"></script>
+</body>
+</html>

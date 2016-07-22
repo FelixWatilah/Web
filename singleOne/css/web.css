@@ -1,0 +1,24 @@
+#imgFloater1{
+    position: absolute;
+    top: 280px;
+    left: 5%;
+    width: 44%;
+    height:280px;
+    border:1px solid #F0F0F0;
+    background-color: #FAFAFA;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#imgFloater2{
+    position: absolute;
+    top: 280px;
+    right: 5%;
+    width: 44%;
+    height:280px;
+    border:1px solid #F0F0F0;
+    background-color: #FAFAFA;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
