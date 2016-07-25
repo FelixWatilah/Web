@@ -157,12 +157,11 @@ form{
     margin-right: auto;
 }
 .form-group{
+    float: left;
     margin: 5px 0 0 0;
     padding-left: 0;
 }
-.form-control{
-    float: right;
-}
+
 iframe{
     width: 100%;
     height: auto;
