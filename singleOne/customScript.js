@@ -9,7 +9,7 @@ $(document).ready(function () {
         navigation:true,
         slideSpeed:700,
         paginationSpeed:700,
-        singleItem:false,
+        singleItem:true,
         rewindNav:true,
         rewindSpeed:5000,
         autoPlay:5000
