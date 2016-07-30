@@ -1,37 +1,434 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Watilah W Felix</title>
 	<!-- css libraries -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/w3css.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.transition.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/modernizr.min.js"></script>
 </head>
 <body>
-<!-- container -->
+
+<!-- ==============================
+	container
+============================== -->
 <div class="container-fluid">
-	<div class="header">
-		<h1>Felix Watilah</h1>
-	</div><!-- end header -->
+
+    <!-- ==============================
+	modal contact-form
+    ============================== -->
+    <div class="modal fade" id="contact-form">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"><strong>Contact Information</strong></h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <form class="form-horizontal">
+                        <!-- form-groups -->
+                        <div class="form-group">
+                            <label for="name" class="col-lg-3 control-label">Name:</label>
+                            <div class="col-lg-9">
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Felix Watilah">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-lg-3 control-label">Email:</label>
+                            <div class="col-lg-9">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="fwatilah@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="col-lg-3 control-label">Phone:</label>
+                            <div class="col-lg-9">
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="+254712423121">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="col-lg-3 control-label">Message:</label>
+                            <div class="col-lg-9">
+                                <textarea class="form-control" name="message" id="message" rows="3" placeholder="Great Job"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" class="form-control btn btn-success" id="sbt" value="Submit">
+                        <!-- end form-groups -->
+                    </form><!-- end form -->
+                </div><!-- end modal-body -->
+                <div class="modal-footer">
+                    <small class="text-muted">For direct communication, use the phone number in the <strong>phone field.</strong></small>
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal posters
+    ============================== -->
+    <div class="modal fade" id="posters-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Advertise using <strong>POSTERS</strong> made by me.</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                </div>
+                <div class="modal-footer">
+                    <a href="#" type="button" role="button"  class="btn btn-primary">Order</a>
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal logos
+    ============================== -->
+    <div class="modal fade" id="logos-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">I can make a <strong>LOGO</strong> for you.</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- end col-lg-4 -->
+                    </div><!-- end row -->
+                </div><!-- end modal-body -->
+                <div class="modal-footer">
+                    <a href="#contact-form" type="button" role="button" data-toggle="modal" class="btn btn-primary">Order</a>
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	modal logos
+    ============================== -->
+    <div class="modal fade" id="cards-m">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" role="button" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">For wonderful <strong>CARDS</strong> place an order.</h4>
+                </div><!-- end modal-header -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                    </div><!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                        <div class="col-lg-4">
+                            <div class="thumbnail">
+
+                            </div><!-- end thumbnail -->
+                        </div><!-- col-lg-4 -->
+                    </div><!-- end row -->
+                </div><!-- end modal-content -->
+                <div class="modal-footer">
+                    <a href="#contact-form" type="button" role="button" data-toggle="modal" class="btn btn-primary">Order</a>
+                </div><!-- end modal-footer -->
+            </div><!-- end modal-content -->
+        </div><!-- end modal-dialog -->
+    </div><!-- end modal -->
+
+    <!-- ==============================
+	home
+    ============================== -->
+	<div class="row" id="home">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+
+				<!-- brand logo and toggle menu -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navMenu" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand"></a>
+				</div><!-- end navbar-header -->
+
+				<!-- nav links, search, --> 
+				<div class="collapse navbar-collapse" id="navMenu">
+					<ul class="nav navbar-nav">
+						<li><a href="#webDesign" id="web">WEB DESIGN</a></li>
+						<li><a href="#graphicDesign" id="graphic">GRAPHIC DESIGN</a></li>
+						<li><a href="#contact-form" data-toggle="modal" id="contact">CONTACT</a></li>
+					</ul>
+					<form class="navbar-form navbar-left pull-right">
+						<div class="form-group">
+							<input type="text" name="search" class="form-control" placeholder="Search...">
+						</div>
+						<button type="submit" class="btn btn-primary btnSearch"><i class="fa fa-search"></i></button>
+					</form>
+				</div><!-- end navMenu -->
+			</div><!-- end navbar -->
+		</nav><!-- end nav -->
+        <div class="papa">
+            <div class="pap">
+                <span class="typo"></span>
+            </div><!-- end pap -->
+            <div class="text">
+                <h1>MY NAME IS&nbsp;<strong>FELIX WAKHALE WATILAH</strong></h1>
+                <h5>I'm a student at <strong>Multimedia University of Kenya</strong>, studying&nbsp;<em><strong>BSc. Information Technology</strong></em>.</h5>
+                <h6>I love programming.&nbsp; <i class="fa fa-spinner">&nbsp;very much...</i></h6>
+                <small>Take your time and go through my website.</small>
+                <h1>Oh! Send me Customers.</h1>
+            </div><!-- end text -->
+        </div><!-- end papa -->
+		<a href="#developer" role="button" class="btn btn-default btn-lg det btn1">DETAILS</a>
+	</div><!-- end home -->
+
+    <!-- ==============================
+	web design
+	============================== -->
+    <div class="row" id="webDesign">
+        <h1 class="wow fadeInRight slideInRight animated" data-wow-offset="5"  data-wow-iteration="1">
+            Web&nbsp;<strong>Design</strong>&nbsp;<i class="fa fa-joomla"></i>
+        </h1>
+    </div><!-- end webDesign -->
+	<div class="row">
+		<div class="col-lg-6" id="packages">
+            <img src="">
+            <h3 class="wow slideInLeft animated" data-wow-offset="10"  data-wow-iteration="1">Packages</h3>
+            <p class="wow fadeInLeft animated" data-wow-offset="10"  data-wow-iteration="1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" role="button" class="btn btn-lg btn-link"><i class="fa fa-plus"></i>&nbsp;More</a>
+		</div><!-- end packages -->
+
+		<div class="col-lg-6" id="prices">
+            <img src="">
+            <h3 class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">Prices</h3>
+            <p class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#" role="button" class="btn btn-lg btn-link"><i class="fa fa-shopping-cart"></i>&nbsp;Order</a>
+		</div><!-- end prices -->
+	</div><!-- end row -->
+
+    <!-- ==============================
+	graphic design
+	============================== -->
+    <div class="row" id="graphicDesign">
+        <h1 class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">Graphic <strong>Design</strong>&nbsp;<i class="fa fa-photo"></i></h1>
+    </div><!-- end graphicDesign -->
+	<div class="row">
+		<div class="col-lg-4" id="posters">
+            <img src="" />
+			<h3 class="wow zoomInRight animated" data-wow-offset="5"  data-wow-iteration="1">
+                Posters
+            </h3>
+            <p class="wow fadeInLeft animated" data-wow-offset="10"  data-wow-iteration="1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <a href="#posters-m" role="button" data-toggle="modal" class="btn btn-lg btn1">View</a>
+		</div><!-- end posters -->
+
+		<div class="col-lg-4" id="logos">
+            <img src="" />
+			<h3 class="wow zoomIn animated" data-wow-offset="5"  data-wow-iteration="1">
+                Logos
+            </h3>
+            <p class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <a href="#logos-m" role="button" data-toggle="modal" class="btn btn-lg btn1">View</a>
+		</div><!-- end logos -->
+
+		<div class="col-lg-4" id="cards">
+            <img src="" />
+			<h3 class="wow zoomInLeft animated" data-wow-offset="5"  data-wow-iteration="1">
+                Cards
+            </h3>
+            <p class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+            <a href="#cards-m" role="button" data-toggle="modal" class="btn btn-lg btn1">View</a>
+		</div><!-- cards -->
+	</div><!-- end row -->
+
+	<!-- ==============================
+	developer
+	============================== -->
+    <div class="row" id="developer">
+        <h1>About&nbsp;<strong>Me</strong>&nbsp;<i class="fa fa-user"></i></h1>
+    </div><!-- end developer -->
+	<div class="row" id="about">
+		<!-- developer's details -->
+		<div class="col-lg-8">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div><!-- end col-lg-8 -->
+        <!-- developer image -->
+        <div class="col-lg-4" id="img">
+            <a href="img/www2.png" data-lightbox="felix" title="Felix"><img class="img-responsive img-thumbnail" src="img/www2.png" alt="Watilah"></a>
+        </div><!-- end col-lg-4 -->
+	</div><!-- end row -->
+
+	<!-- ==============================
+	location
+	============================== -->
+    <div class="row" id="location">
+        <h1>My&nbsp;<strong>Location</strong>&nbsp;<i class="fa fa-map-marker"></i></h1>
+    </div><!-- end location -->
+	<div class="row">
+		<div class="col-lg-8">
+			<h3>Map&nbsp;<i class="fa fa-map"></i></h3>
+		</div><!-- end col-lg-8 -->
+		<div class="col-lg-4">
+			<h3>Location&nbsp;<i class="fa fa-map-pin"></i></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div><!-- end col-lg-4 -->
+	</div><!-- end row -->
+
 </div><!-- end container-fluid -->
+
+<!-- ==============================
+footer
+============================== -->
+<footer>
+    <div class="container" id="footer">
+        <a href="#"><i class="fa fa-2x fa-arrow-circle-o-up" id="up"></i></a>
+        <a href="#"><i class="fa fa-3x fa-facebook-square wow pulse infinite social"></i></a>
+        <a href="#"><i class="fa fa-3x fa-twitter-square wow pulse infinite social"></i></a>
+        <a href="#"><i class="fa fa-3x fa-linkedin-square wow pulse infinite social"></i></a>
+        <a href="#"><i class="fa fa-3x fa-github-square wow pulse infinite social"></i></a>
+        <h6><strong>Copyright &copy; 2016, W. F. Watilah</strong></h6>
+    </div><!-- end footer -->
+</footer>	
 
 <!-- jquery libraries -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/lettering.js"></script>
+<script type="text/javascript" src="js/lettering.min.js"></script>
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js.typed.min.js"></script>
+<script type="text/javascript" src="js/typed.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/scrollorama.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 </body>

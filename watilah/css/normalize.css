@@ -15,7 +15,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 nav,
 section {
     display: block;
@@ -95,33 +94,14 @@ textarea {
    Links
    ========================================================================== */
 
-a {
-    color: #00e;
-}
-
-a:visited {
-    color: #551a8b;
-}
-
 /*
  * Addresses outline displayed oddly in Chrome
  */
-
-a:focus {
-    outline: 0;
-}
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-
-a:hover,
-a:active {
-    outline: 0;
-}
-
-
 /* =============================================================================
    Typography
    ========================================================================== */

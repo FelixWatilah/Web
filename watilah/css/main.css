@@ -1,1 +1,311 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+/*
+* background: #008178;
+* color: #25B0A6;
+* btn background: #040c17
+*
+*/
+body, html {
+    background-color: #e7e7e7;
+	margin: 0 auto;
+	padding: 0;
+    height: 100%;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+h3{
+    color: #040c17;
+}
+strong{
+    color: #9b9b9b;
+}
+.container-fluid{
+	margin: 0 auto;
+	padding: 0;
+}
+.btn1{
+    color: #FFFFFF;
+    font-family: 'Oswald',sans-serif;
+    border: none;
+    transition: all 0.3s ease 0s;
+    background-color: #040c17;
+    margin: 0 5%;
+}
+.btn1:hover{
+    color: #FFFFFF;
+    transform: scale(1.1);
+    background-color: #000;
+}
+.navbar{
+    background: #008178;
+    border-color: transparent;
+}
+#navMenu li a{
+    font-family: "Oswald", sans-serif;
+    color: #000;
+    font-size: 120%;
+    font-weight: bolder;
+}
+#navMenu li a:hover{
+    color: #C5C3DE;
+}
+.btnSearch{
+    background-color: #000;
+    color: #FFFFFF;
+    border: none;
+}
+.btnSearch:hover{
+    color: #000;
+    background-color: #FFFFFF;
+}
+.papa{
+    text-align: left;
+    margin: 12.5% 0;
+    background-color: #555;
+    color: #C5C3DE;
+    width: 80%;
+    height: 210px;
+}
+.pap{
+    padding:9% 4%;
+    text-align: left;
+    width:90%;
+    height: 40%;
+}
+.typo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 150%;
+}
+.text{
+    display: none;
+}
+#home{
+	background: #777 url("../img/about-us-bg.jpg") no-repeat fixed;
+	background-size: cover;
+	min-height: 100%;
+}
+.det{
+    margin-bottom: 5%;
+}
+#graphicDesign{
+    background: #e7e7e7 url("../img/paralax2.png") no-repeat fixed;
+}
+#about{
+    color: #C5C3DE;
+    background: transparent url("../img/paralax2.png") no-repeat fixed;
+}
+#location,#webDesign,#graphicDesign,#developer{
+    padding:2% 0;
+    color: #008178;
+}
+#webDesign img,#graphicDesign img,#packages img,#prices img,#posters img,#logos img,#cards img{
+    margin: 0 5%;
+}
+#location h1,#webDesign h1,#graphicDesign h1,#developer h1{
+    padding: 0 0 0 2%;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+}
+p{
+    line-height: 2;
+    text-align: left;
+	padding: 20px;
+}
+h3{
+    color: #07011b;
+    font-family: "Oswald", sans-serif;
+    padding: 0 0 0 4%;
+    text-align: left;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    color: #000;
+}
+#footer{
+    padding: 5% 0;
+}
+.social{
+    margin: 20px;
+    transition: all 0.5s cubic-bezier(.46,.03,.52,.96) 0s;
+}
+.social:hover{
+    transform: scale(1.4);
+    color: #fff;
+}
+.row{
+    margin: 0 auto;
+    padding: 2% 0 2% 0;
+}
+.modal strong{
+    color: #040c17;
+}
+.modal-header{
+    text-align: center;
+    color: #fff;
+    background-color: #008178;
+}
+.modal-body{
+    text-align: center;
+    background-color: #e7e7e7;
+}
+.modal-footer{
+    color: #fff;
+    background-color: #040c17;
+    text-align: center;
+}
+.thumbnail{
+    margin: 1% 0;
+    background-color: #ffffff;
+}
+.form-control{
+    width: 80%;
+}
+#sbt,#close{
+    width: 15%;
+}
+#up{
+    right: 3%;
+    z-index: 1;
+    position: absolute;
+}
+/* code for animated blinking cursor */
+.typed-cursor{
+    font-size: 150%;
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*media queries */
+@media (max-width: 979px) {
+    .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+        padding: 0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+}
+@media (max-width: 768px) {
+    .navbar.navbar-fixed-top{
+        position: static;
+    }
+    .btn.btn-navbar{
+        margin: 9px 20px 9px 8px;
+        padding: 10px 10px;
+    }
+    .nav-collapse .nav > li{
+        border-top: 1px solid #e1e6dd;
+        text-align: center
+    }
+    #header .logo{
+        margin: 20px auto 0;
+        float: none;
+        height: 150px;
+    }
+    #header {
+        text-align: center;
+        padding: 60px 0 30px;
+    }
+    #header h1{
+        margin: 10px 0;
+    }
+    #header h3{
+        margin-bottom: 10px;
+        width: auto;
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 38px;
+        margin: 20px 0;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: static;
+    }
+    #header {
+        text-align: center;
+        padding: 20px 0 20px;
+    }
+    #header .logo{
+        margin-top:0;
+    }
+
+}
+
+/*
+NO MORE TABLES!! ;)
+*/
+@media (max-width: 767px) {
+
+    .hp-table table, .hp-table thead, .hp-table .hp-table tbody, .hp-table th, .hp-table td, .hp-table tr {
+        display: block;
+    }
+    .hp-table thead tr {
+        display: none;
+    }
+    .hp-table tr { border: 0 solid #ccc; margin-bottom: 10px; }
+
+    .hp-table td:before {
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .hp-table td:nth-of-type(2):before {
+        content: "Default:";
+        font-weight: bold;
+    }
+    .hp-table td:nth-of-type(3):before {
+        content: "Type:";
+        font-weight: bold;
+    }
+    .hp-table td:nth-of-type(4):before {
+        content: "Description:";
+        font-weight: bold;
+    }
+}
