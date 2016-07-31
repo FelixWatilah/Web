@@ -25,7 +25,6 @@ strong{
 }
 .btn1{
     color: #FFFFFF;
-    font-family: 'Oswald',sans-serif;
     border: none;
     transition: all 0.3s ease 0s;
     background-color: #040c17;
@@ -34,7 +33,6 @@ strong{
 .btn1:hover{
     color: #FFFFFF;
     transform: scale(1.1);
-    background-color: #000;
 }
 .navbar{
     background: #008178;
@@ -59,22 +57,43 @@ strong{
     background-color: #FFFFFF;
 }
 .papa{
-    text-align: left;
-    margin: 12.5% 0;
-    background-color: #555;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
     color: #C5C3DE;
-    width: 80%;
-    height: 210px;
+    width: 100%;
+    height: 670px;
 }
 .pap{
-    padding:9% 4%;
+    background: rgba(0, 0, 0, 0.9);
+    margin: 10% 0 0 0;
     text-align: left;
-    width:90%;
-    height: 40%;
 }
-.typo{
-    font-family: 'Oswald', sans-serif;
+.panel{
+    border: none;
+    -webkit-box-shadow: 1px 1px 2px 1px #fff;
+    -moz-box-shadow: 1px 1px 2px 1px #fff;
+    box-shadow: 1px 1px 2px 1px #fff;
+}
+.typo,.panel-title{
+    font-family: monospace;
+    font-size: 130%;
+}
+.panel-heading{
+    background-color: #555;
+}
+.panel-title{
     font-size: 150%;
+    color: #000;
+    font-weight: bolder;
+    padding: 0;
+    text-align: left;
+}
+.det{
+    background-color: #0F9E5E;
+    margin: 10% 0 auto;
+}
+.det:hover{
+    color: #000;
 }
 .text{
     display: none;
@@ -83,9 +102,6 @@ strong{
 	background: #777 url("../img/about-us-bg.jpg") no-repeat fixed;
 	background-size: cover;
 	min-height: 100%;
-}
-.det{
-    margin-bottom: 5%;
 }
 #graphicDesign{
     background: #e7e7e7 url("../img/paralax2.png") no-repeat fixed;
@@ -130,12 +146,11 @@ footer{
     transition: all 0.5s cubic-bezier(.46,.03,.52,.96) 0s;
 }
 .social:hover{
-    transform: scale(1.4);
     color: #fff;
 }
 .row{
     margin: 0 auto;
-    padding: 2% 0 2% 0;
+    padding: 2% 0 0 0;
 }
 .modal strong{
     color: #040c17;
@@ -168,6 +183,11 @@ footer{
     right: 3%;
     z-index: 1;
     position: absolute;
+}
+#skills h6{
+    color: #008178;
+    font-weight: bold;
+    text-align: center;
 }
 /* code for animated blinking cursor */
 .typed-cursor{

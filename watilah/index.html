@@ -10,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/circliful.css">
+    <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script type="text/javascript" src="js/modernizr.min.js"></script>
 </head>
@@ -261,19 +264,29 @@
 				</div><!-- end navMenu -->
 			</div><!-- end navbar -->
 		</nav><!-- end nav -->
-        <div class="papa">
-            <div class="pap">
-                <span class="typo"></span>
+        <div class="row papa">
+            <div class="col-lg-8">
+                <div class="panel pap">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Basic Information</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span class="typo"></span>
+                    </div>
+                </div>
+                <a href="#developer" role="button" class="btn btn-default btn-lg det btn1 hvr-curl-bottom-left">Much Info</a>
             </div><!-- end pap -->
             <div class="text">
                 <h1>MY NAME IS&nbsp;<strong>FELIX WAKHALE WATILAH</strong></h1>
                 <h5>I'm a student at <strong>Multimedia University of Kenya</strong>, studying&nbsp;<em><strong>BSc. Information Technology</strong></em>.</h5>
-                <h6>I love programming.&nbsp; <i class="fa fa-spinner">&nbsp;very much...</i></h6>
+                <h6>I love programming.&nbsp; <i class="fa fa-spinner fa-spin"></i>&nbsp;very much...</h6>
                 <small>Take your time and go through my website.</small>
                 <h1>Oh! Send me Customers.</h1>
             </div><!-- end text -->
+            <div class="col-lg-4">
+
+            </div>
         </div><!-- end papa -->
-		<a href="#developer" role="button" class="btn btn-default btn-lg det btn1">DETAILS</a>
 	</div><!-- end home -->
 
     <!-- ==============================
@@ -287,8 +300,8 @@
 	<div class="row">
 		<div class="col-lg-6" id="packages">
             <img src="">
-            <h3 class="wow slideInLeft animated" data-wow-offset="10"  data-wow-iteration="1">Packages</h3>
-            <p class="wow fadeInLeft animated" data-wow-offset="10"  data-wow-iteration="1">
+            <h3 class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">Packages</h3>
+            <p class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -301,8 +314,8 @@
 
 		<div class="col-lg-6" id="prices">
             <img src="">
-            <h3 class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">Prices</h3>
-            <p class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">
+            <h3 class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">Prices</h3>
+            <p class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -323,7 +336,7 @@
 	<div class="row">
 		<div class="col-lg-4" id="posters">
             <img src="" />
-			<h3 class="wow zoomInRight animated" data-wow-offset="5"  data-wow-iteration="1">
+			<h3 class="wow fadeInLeft animated" data-wow-offset="5"  data-wow-iteration="1">
                 Posters
             </h3>
             <p class="wow fadeInLeft animated" data-wow-offset="10"  data-wow-iteration="1">
@@ -336,7 +349,7 @@
 
 		<div class="col-lg-4" id="logos">
             <img src="" />
-			<h3 class="wow zoomIn animated" data-wow-offset="5"  data-wow-iteration="1">
+			<h3 class="wow fadeInUp animated" data-wow-offset="5"  data-wow-iteration="1">
                 Logos
             </h3>
             <p class="wow fadeInUp animated" data-wow-offset="10"  data-wow-iteration="1">
@@ -349,7 +362,7 @@
 
 		<div class="col-lg-4" id="cards">
             <img src="" />
-			<h3 class="wow zoomInLeft animated" data-wow-offset="5"  data-wow-iteration="1">
+			<h3 class="wow fadeInRight animated" data-wow-offset="5"  data-wow-iteration="1">
                 Cards
             </h3>
             <p class="wow fadeInRight animated" data-wow-offset="10"  data-wow-iteration="1">
@@ -376,10 +389,32 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="row" id="skills">
+                <div class="col-lg-2">
+                    <div id="html"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div id="css"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div id="js"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div id="ps"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div id="ai"></div>
+                </div>
+                <div class="col-lg-2">
+                    <div id="oa"></div>
+                </div>
+            </div>
+
 		</div><!-- end col-lg-8 -->
         <!-- developer image -->
         <div class="col-lg-4" id="img">
-            <a href="img/www2.png" data-lightbox="felix" title="Felix"><img class="img-responsive img-thumbnail" src="img/www2.png" alt="Watilah"></a>
+            <a href="img/www2.png" data-lightbox="felix" title="Felix"><img class="img-responsive img-circle " src="img/www2.png" alt="Watilah"></a>
         </div><!-- end col-lg-4 -->
 	</div><!-- end row -->
 
@@ -412,10 +447,10 @@ footer
 <footer>
     <div class="container" id="footer">
         <a href="#"><i class="fa fa-2x fa-arrow-circle-o-up" id="up"></i></a>
-        <a href="#"><i class="fa fa-3x fa-facebook-square wow pulse infinite social"></i></a>
-        <a href="#"><i class="fa fa-3x fa-twitter-square wow pulse infinite social"></i></a>
-        <a href="#"><i class="fa fa-3x fa-linkedin-square wow pulse infinite social"></i></a>
-        <a href="#"><i class="fa fa-3x fa-github-square wow pulse infinite social"></i></a>
+        <a href="https://web.facebook.com/fwatilah"><i class="fa fa-3x fa-facebook-square hvr-pulse-shrink social"></i></a>
+        <a href="https://twitter.com/watilahfelix"><i class="fa fa-3x fa-twitter-square hvr-pulse-shrink social"></i></a>
+        <a href="https://www.linkedin.com/in/felix-watilah-82152b118?trk=nav_responsive_tab_profile"><i class="fa fa-3x fa-linkedin-square hvr-pulse-shrink social"></i></a>
+        <a href="https://github.com/FelixWatilah"><i class="fa fa-3x fa-github-square hvr-pulse-shrink social"></i></a>
         <h6><strong>Copyright &copy; 2016, W. F. Watilah</strong></h6>
     </div><!-- end footer -->
 </footer>	
@@ -429,6 +464,7 @@ footer
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/typed.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/circliful.min.js"></script>
 <script type="text/javascript" src="js/scrollorama.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 </body>
